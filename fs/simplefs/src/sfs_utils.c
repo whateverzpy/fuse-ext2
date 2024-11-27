@@ -480,7 +480,7 @@ struct sfs_dentry* sfs_lookup(const char * path, boolean* is_find, boolean* is_r
 
             while (dentry_cursor)   /* 遍历子目录项 */
             {
-                if (memcmp(dentry_cursor->fname, fname, strlen(fname)) == 0) {
+                if (strcmp(fname, dentry_cursor->fname) == 0) {
                     is_hit = TRUE;
                     break;
                 }
