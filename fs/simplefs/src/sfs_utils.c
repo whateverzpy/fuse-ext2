@@ -450,14 +450,7 @@ struct sfs_dentry* sfs_lookup(const char * path, boolean* is_find, boolean* is_r
     int   lvl = 0;
     boolean is_hit;
     char* fname = NULL;
-    
-    // char* path_cpy = (char*)malloc(sizeof(path));
-    char* path_cpy = (char*)malloc(strlen(path) + 1);
-    if (path_cpy == NULL) {
-        SFS_DBG("[%s] malloc error\n", __func__);
-        return NULL;
-    }
-    
+    char* path_cpy = (char*)malloc(sizeof(path));
     *is_root = FALSE;
     strcpy(path_cpy, path);
 

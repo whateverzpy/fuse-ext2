@@ -40,7 +40,6 @@ typedef enum sfs_file_type {
 #define SFS_MAX_FILE_NAME       128
 #define SFS_INODE_PER_FILE      1
 #define SFS_DATA_PER_FILE       16
-// #define SFS_DATA_PER_FILE       1024
 #define SFS_DEFAULT_PERM        0777
 
 #define SFS_IOC_MAGIC           'S'
