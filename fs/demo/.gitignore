@@ -1,0 +1,14 @@
+# CMake build files
+/build/
+
+# VSCode settings
+/.vscode/
+
+# Test artifacts
+/tests/disk
+/tests/disk2
+/tests/mnt/
+/tests/test_mnt/
+
+# Executable file
+demo

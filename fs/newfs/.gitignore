@@ -1,0 +1,12 @@
+# Build output
+/build/
+
+# Test mount point
+/tests/mnt/
+
+# ddriver disk image
+ddriver
+ddriver_dump
+
+# Executable
+newfs
