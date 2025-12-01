@@ -58,8 +58,8 @@ typedef enum newfs_file_type
 #define NEWFS_SUPER_BLKS 1
 #define NEWFS_INODE_MAP_BLKS 1
 #define NEWFS_DATA_MAP_BLKS 1
-#define NEWFS_INODE_BLKS 85  // 4096/7/8
-#define NEWFS_DATA_BLKS 3995 // 4096-1-1-1-85
+#define NEWFS_INODE_BLKS 585  // 4096/7
+#define NEWFS_DATA_BLKS 3508 // 4096-1-1-1-585
 /******************************************************************************
  * SECTION: Macro Function
  *******************************************************************************/
